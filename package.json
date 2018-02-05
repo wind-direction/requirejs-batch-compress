@@ -1,0 +1,40 @@
+{
+  "name": "r-bc",
+  "version": "1.0.0",
+  "description": "AMD规范requireJS的压缩工具r.js的多页批量压缩工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wind-direction/requirejs-batch-compress.git"
+  },
+  "keywords": [
+    "requirejs",
+    "r.js",
+    "batch-compress"
+  ],
+  "author": "wind.direction.work@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wind-direction/requirejs-batch-compress/issues"
+  },
+  "homepage": "https://github.com/wind-direction/requirejs-batch-compress#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "colors": "^1.1.2",
+    "sprintf-js": "^1.1.0"
+  },
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "requirejs": "^2.3.3",
+    "shelljs": "^0.7.7",
+    "yargs": "^8.0.1"
+  },
+  "bin": {
+    "r-bc": "dist/r-bc.js"
+  }
+}
